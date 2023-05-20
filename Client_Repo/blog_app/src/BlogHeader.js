@@ -46,7 +46,7 @@ function BlogHeader(){
           <nav>
             {userInfo && (
               <>
-                <span>Hello, {username}...! </span>
+                {/* <span>Hello, {username}...! </span> */}
                 <Link to="/createnewpost">Create New Post</Link>
                 <a onClick={logout}>Logout</a>
               </>
